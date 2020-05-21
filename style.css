@@ -21,7 +21,7 @@ body {
 }
 
 .font-size-xl {
-	font-size: 8rem;
+	font-size: 6rem;
 }
 
 .color-white {
@@ -214,4 +214,11 @@ body {
 	.const-msg .text div {
 		font-size: 5rem;
 	}
+}
+
+.credits {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: rgb(218, 228, 226);
 }
