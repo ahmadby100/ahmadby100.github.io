@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test</title>
+    </head>
+    <body>
+    <!--Headings-->
+        <p> 
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h4>Heading Four </h4>
+            <h5>Heading Five</h5>
+            <h6>Heading Six </h6>
+        </p>
+    <hr>
+    <a href="Second Page.html">Go to second page</a>
+    <!--Lists -->
+    <h1>Lists:</h1>
+        <ul><!--Unordered List-->
+            <li>List Item 1</li><!--List-->
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+        <ol><!--Ordered List-->
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+    <hr>
+    <!--Table-->
+    <h1>Table:</h1>
+        <table>
+
+            <thead><!-- Table Heading-->
+                <tr> <!--Table Row-->
+                    <th>Name</th><!--Table Headinds (Individual)-->
+                    <th>Email</th>   
+                    <th>Age</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ahmad Usayd</td> <!--Table Data-->
+                    <td>ausayd@domain.com</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td> <!--Table Data-->
+                    <td>jdoe@domain.com</td>
+                    <td>29</td>
+                </tr>
+                <tr>
+                    <td>Megan Williams</td> <!--Table Data-->
+                    <td>mwilliams@domain.com</td>
+                    <td>22</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    <br>
+    <hr>
+    <!--Forms-->
+    <h1>Forms:</h1>
+        <form action="process.php" method="POST"><!--action:to which the form is submitted, method: how the data is sent-->
+            <div>
+                <label>First Name</label><!-- Label name-->
+                <input type="text" name="firstName" placeholder="Enter First Name"> <!--type: input type, name:value to be sent,value:predefined value to data, placeholder: placeholder text  -->
+            </div>
+        <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" id="" placeholder="Enter Last Name" >
+            </div>
+        <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="" placeholder="email@example.com">
+            </div>
+        <br>
+            <div>
+                <label> Message</label>
+                <textarea name="message" id="" cols="30" rows="5" placeholder="Enter Text Here"></textarea>
+            </div>
+        <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender" id=""><!--Allows to select options from options defined in it-->
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="20"><!--Data type 'number'-->
+            </div>
+        <br>
+        <div>
+            <label> 
+                <input type="date" name="birthday"><!--Data type 'date'-->
+            </label>
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit"><!--Submits data to 'action' in 'form'-->
+        </form>
+    <br>
+    <hr>
+
+    <!--Button-->
+    <h1>Buttons:</h1>
+    <button>Button</button><!--Doesnt do anything on its own; requires javascript-->
+
+    <br>
+    <hr>
+
+    <!--Images-->
+    <h1>Images:</h1>
+        <a href="sample.jpg"><!--add the functionality of linking the image to a its source location in this usecase-->
+        <img src="sample.jpg" alt="Sample image of bird from unsplash.com" width="480" height="100%">
+        <!--src:source folder, alt:alternative desc about image[shown if image is unable to load] width: set width(in px or %), height:set height(in px or %). -->
+        </a>
+    <br>
+    <hr>
+    <!--Quotations-->
+    <h1>Quotations:</h1>
+    <h2>Blockquote:</h2>
+    <blockquote cite="www.unsplash.com"> <!-- shows citation in source code-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Iure corporis eligendi exercitationem nulla voluptas ipsa beatae sed hic enim 
+        facilis ducimus laborum consectetur dolorum, earum, fugiat mollitia similique quaerat. Voluptatum.
+        
+    </blockquote>
+
+    <br>
+    <h2>Abbrieviation:</h2>
+    <p>What does <abbr title="World Wide Web">www</abbr> stand for? Hover to find out.</p> <!-- shows abbrieviation when hovered over-->
+
+    <br>
+    <h2>Cite:</h2>
+    <p>My name is <cite>Ahmad Usayd</cite></p> <!--lets the browser know its being cited-->
+
+        <div style="margin-top: 500px";></div> <!--Current usecase: height of page-->
+    </body>
+</html>
